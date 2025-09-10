@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prof. Francesco GABRIELE - CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="profile-image-wrapper">
+        <img id="profile-img" src="https://via.placeholder.com/120x120?text=Photo" alt="Profile Image">
+        <label for="profile-upload" class="upload-label" title="Upload profile image">
+          <span class="upload-icon">🖼️</span>
+          <input type="file" id="profile-upload" accept="image/*" style="display:none;">
+        </label>
+      </div>
+      <h1>Prof. Francesco GABRIELE</h1>
+      <p>Assistant Professor<br>
+        <a href="mailto:fgabriele@ust.hk">fgabriele@ust.hk</a>
+      </p>
+    </header>
+    <nav>
+      <button class="tab-btn active" data-tab="cv">CV</button>
+      <button class="tab-btn" data-tab="research">Research</button>
+      <button class="tab-btn" data-tab="teaching">Teaching</button>
+    </nav>
+    <main>
+      <section id="cv" class="tab-content active">
+        <h2>Education</h2>
+        <ul>
+          <li>PhD, MA – University of Southern California</li>
+          <li>MSc, BSc – Università Cattolica del Sacro Cuore</li>
+        </ul>
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Empirical IO</li>
+          <li>Digital Marketing</li>
+          <li>Experimental and Behavioral Economics</li>
+          <li>Applied Machine Learning</li>
+        </ul>
+      </section>
+      <section id="research" class="tab-content">
+        <h2>Research</h2>
+        <p>Describe your research projects, publications, and collaborations here.</p>
+        <ul>
+          <li>Empirical studies in IO and digital markets</li>
+          <li>Experiments in consumer behavior</li>
+          <li>Applications of machine learning in economics</li>
+        </ul>
+      </section>
+      <section id="teaching" class="tab-content">
+        <h2>Teaching</h2>
+        <p>List your teaching experiences and related activities here.</p>
+        <ul>
+          <li>Course 1, Institution, Year</li>
+          <li>Workshop, Topic, Year</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
